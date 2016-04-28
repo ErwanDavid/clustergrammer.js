@@ -15,6 +15,9 @@ function Clustergrammer(args) {
   // visualize based on config object
   // handle user events
 
+  console.log('checking args in clustergrammer');
+  console.log(args);
+
   // consume and validate user arguments, produce configuration object
   var config = make_config(args);
 
